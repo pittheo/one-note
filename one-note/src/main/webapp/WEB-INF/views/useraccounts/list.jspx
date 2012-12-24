@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_one_note_noted_domain_UserAccount" items="${useraccounts}" z="3oTqT4w0YC172DQZPJN70lDZ0+4=">
+        <table:table data="${useraccounts}" id="l_org_one_note_noted_domain_UserAccount" path="/useraccounts" z="fE+N/BQU2xggfZFqZkxXd5FcL6g=">
+            <table:column id="c_org_one_note_noted_domain_UserAccount_username" property="username" z="u9EMzX+9Ty8IKs3J2nas0nGSqI0="/>
+            <table:column id="c_org_one_note_noted_domain_UserAccount_password" property="password" z="xgBhxgRtA8Jg2OnD1OnqG8s7430="/>
+            <table:column id="c_org_one_note_noted_domain_UserAccount_hash" property="hash" z="6tfsPiXsNqhOhHxhwbKF49Hshp8="/>
+            <table:column id="c_org_one_note_noted_domain_UserAccount_verified" property="verified" z="Zed412gE7UEFwjwgapSOQ+1EiPA="/>
+            <table:column id="c_org_one_note_noted_domain_UserAccount_email" property="email" z="4MTZPcK5kQ2/wv2IZqBr8FflTE4="/>
+            <table:column id="c_org_one_note_noted_domain_UserAccount_profile" property="profile" z="JjKmJS0VVQLLfCLvpO0WjZ9HcM4="/>
+        </table:table>
+    </page:list>
+</div>

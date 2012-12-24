@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_one_note_noted_domain_Tablature" object="${tablature}" path="/tablatures" z="nfRBxRts6b4lwNAZxCnaALFn3w8=">
+        <field:display date="true" dateTimePattern="${tablature_createdat_date_format}" field="createdAt" id="s_org_one_note_noted_domain_Tablature_createdAt" object="${tablature}" z="Hz7MzMcnXj9YVQz79aNeC+Bz0Q0="/>
+        <field:display date="true" dateTimePattern="${tablature_lastmodifiedat_date_format}" field="lastModifiedAt" id="s_org_one_note_noted_domain_Tablature_lastModifiedAt" object="${tablature}" z="l6mctWLQq1XQIXa0pKZ4vSg1xhc="/>
+        <field:display field="author" id="s_org_one_note_noted_domain_Tablature_author" object="${tablature}" z="RqtHRpna1567GTLIJr/HlcGJoBA="/>
+        <field:display field="songTitle" id="s_org_one_note_noted_domain_Tablature_songTitle" object="${tablature}" z="wXK2NTd+dFRuPqRIKd7npD2Mj+A="/>
+        <field:display field="artistName" id="s_org_one_note_noted_domain_Tablature_artistName" object="${tablature}" z="8zED4sXcxyoam93Q5kPBs8Fa0oM="/>
+        <field:display field="thumbnailPath" id="s_org_one_note_noted_domain_Tablature_thumbnailPath" object="${tablature}" z="xpKgNlGwyj8c4GMwRac+6lJtQJo="/>
+        <field:display field="lines" id="s_org_one_note_noted_domain_Tablature_lines" object="${tablature}" z="qFWJj5VVkLxNhIFhD+iotbERdBM="/>
+    </page:show>
+</div>

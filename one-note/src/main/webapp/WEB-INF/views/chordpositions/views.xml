@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="chordpositions/list">
+        <put-attribute name="body" value="/WEB-INF/views/chordpositions/list.jspx"/>
+    </definition>
+<definition extends="default" name="chordpositions/show">
+        <put-attribute name="body" value="/WEB-INF/views/chordpositions/show.jspx"/>
+    </definition>
+<definition extends="default" name="chordpositions/create">
+        <put-attribute name="body" value="/WEB-INF/views/chordpositions/create.jspx"/>
+    </definition>
+<definition extends="default" name="chordpositions/update">
+        <put-attribute name="body" value="/WEB-INF/views/chordpositions/update.jspx"/>
+    </definition>
+</tiles-definitions>

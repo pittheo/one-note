@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_one_note_noted_domain_VideoEntry" items="${videoentrys}" z="gBelhh2ZIDcrPHljJCtyMNzFtN8=">
+        <table:table data="${videoentrys}" id="l_org_one_note_noted_domain_VideoEntry" path="/videoentrys" z="hGMm3z0k4Ev5Pmvodw6hBmiUO/0=">
+            <table:column id="c_org_one_note_noted_domain_VideoEntry_author" property="author" z="vSsLQSa7oFPnLRcxglA1w9T1h6E="/>
+            <table:column date="true" dateTimePattern="${videoEntry_addedat_date_format}" id="c_org_one_note_noted_domain_VideoEntry_addedAt" property="addedAt" z="fPNAoZiXbhIvosRay3/etaJWvmk="/>
+            <table:column id="c_org_one_note_noted_domain_VideoEntry_url" property="url" z="4A9utuBgB6q4QF8If4gLNbrTClw="/>
+            <table:column id="c_org_one_note_noted_domain_VideoEntry_upVotes" property="upVotes" z="u1ZdDdztWh2/4UdtENbgrSZIl/k="/>
+            <table:column id="c_org_one_note_noted_domain_VideoEntry_downVotes" property="downVotes" z="2vUZvsrZLJczrq+LvBUzg0eNytY="/>
+            <table:column id="c_org_one_note_noted_domain_VideoEntry_thumbnailUrl" property="thumbnailUrl" z="eXyTUHjk3Dv7lWjbgQ6+AP7E8ms="/>
+        </table:table>
+    </page:list>
+</div>

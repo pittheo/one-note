@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_org_one_note_noted_domain_SongLine" modelAttribute="songLine" path="/songlines" render="${empty dependencies}" z="2ZBFR0RP0IYV067FT4GUpyz5s44=">
+        <field:input field="lyrics" id="c_org_one_note_noted_domain_SongLine_lyrics" min="2" required="true" z="+bFEJ9+NGIBJ6HEzdglwrAhykJo="/>
+        <field:input field="ordering" id="c_org_one_note_noted_domain_SongLine_ordering" required="true" validationMessageCode="field_invalid_integer" z="B76BwPGL9ptNS+hRzlvKfOKuUkA="/>
+        <field:select field="chordPositions" id="c_org_one_note_noted_domain_SongLine_chordPositions" itemValue="id" items="${chordpositions}" multiple="true" path="/chordpositions" z="4EM203IorcSOw9I0faYvdIzOtHU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_org_one_note_noted_domain_SongLine" render="${not empty dependencies}" z="lrewpcU/gibjd5p9JHGpI3/Xllw="/>
+</div>

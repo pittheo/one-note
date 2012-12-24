@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_one_note_noted_domain_VideoEntry" modelAttribute="videoEntry" path="/videoentrys" versionField="Version" z="x6kwTFH37MxbUZqTHL0wKrXUM7E=">
+        <field:select field="author" id="c_org_one_note_noted_domain_VideoEntry_author" itemValue="id" items="${useraccounts}" path="/useraccounts" z="uXo61rQkukgoQ2uSrnrBTmNYQ4c="/>
+        <field:datetime dateTimePattern="${videoEntry_addedat_date_format}" field="addedAt" id="c_org_one_note_noted_domain_VideoEntry_addedAt" required="true" z="uF4A/QVcKnnK3u63AnrvSz+ieGE="/>
+        <field:input field="url" id="c_org_one_note_noted_domain_VideoEntry_url" min="2" required="true" z="ZvLEKv0mydeAvdQ7nHStmPJzJ9o="/>
+        <field:input field="upVotes" id="c_org_one_note_noted_domain_VideoEntry_upVotes" required="true" validationMessageCode="field_invalid_integer" z="F1F3qQQKpaoB+vF8OtpN+Z3mAZM="/>
+        <field:input field="downVotes" id="c_org_one_note_noted_domain_VideoEntry_downVotes" required="true" validationMessageCode="field_invalid_integer" z="KKaEaYpYIs4w2G7Aw37yZsSqpj8="/>
+        <field:input field="thumbnailUrl" id="c_org_one_note_noted_domain_VideoEntry_thumbnailUrl" min="2" required="true" z="9a7/dN70n9rTrCHWHWGaNGOfb54="/>
+    </form:update>
+</div>

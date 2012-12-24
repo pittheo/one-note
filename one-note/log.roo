@@ -1,0 +1,82 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-12-17 20:41:38
+project --topLevelPackage org.one.note.noted --projectName one-note --java 6
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-12-17 20:41:39
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-12-17 20:41:49
+persistence setup --database MYSQL --provider HIBERNATE
+entity --class ~.domain.UserAccount --testAutomatically
+field string --fieldName username --notNull --sizeMin 2
+field string --fieldName password --notNull --sizeMin 2
+field string --fieldName hash --notNull --sizeMin 2
+field string --fieldName emailRetype --transient
+field boolean --fieldName verified --notNull false
+finder add --finderName findUserAccountsByUsernameEqualsAndPasswordEquals
+finder add --finderName findUserAccountsByUsernameLike
+finder add --finderName findUserAccountsByEmailEqualsAndPasswordEquals
+field string --fieldName email --notNull --sizeMin 2
+finder add --finderName findUserAccountsByEmailEqualsAndPasswordEquals
+entity --class ~.domain.UserProfile --testAutomatically
+field string --fieldName firstName --notNull --sizeMin 2
+field string --fieldName surname
+// [failed] entity --class ~.domain.UserAccount
+field reference --fieldName profile --type ~.domain.UserProfile
+// [failed] entity --class ~.domain.UserProfile --testAutomatically
+field string --fieldName locationName
+field number --fieldName coordX --type java.lang.Float
+field number --fieldName coordY --type java.lang.Float
+field string --fieldName website
+field string --fieldName thumbnailPath --notNull
+finder add --finderName findUserAccountsByEmailEquals
+// [failed] entity --class ~.domain.UserAccount
+finder add --finderName findUserAccountsByEmailEquals
+finder add --finderName findUserAccountsByVerifiedNot
+finder add --finderName findUserAccountsByUsernameEquals
+field date --fieldName createdAt --type java.util.Date --notNull
+field date --fieldName verifiedAt --type java.util.Date --notNull
+entity --class ~.domain.Comment --testAutomatically 
+field string --fieldName content --notNull --sizeMin 2
+field reference --fieldName author --type ~.domain.UserAccount
+field date --fieldName createdAt --type java.util.Date --notNull
+field date --fieldName lastModifiedAt --type java.util.Date --notNull
+field string --fieldName title --sizeMin 2
+entity --class ~.domain.Tablature --testAutomatically 
+field date --fieldName createdAt --type java.util.Date --notNull
+field date --fieldName lastModifiedAt --type java.util.Date --notNull
+field reference --fieldName author --type ~.domain.UserAccount
+field string --fieldName songTitle --sizeMin 2 --notNull
+field string --fieldName artistName --sizeMin 2 --notNull
+field string --fieldName thumbnailPath --notNull
+entity --class ~.domain.SongLine --testAutomatically 
+field string --fieldName lyrics --sizeMin 2 --notNull
+// [failed] field number --fieldName order --type java.lang.Integer --notNull 
+field number --fieldName ordering --type java.lang.Integer --notNull 
+entity --class ~.domain.ChordPosition --testAutomatically 
+field string --fieldName chord --notNull
+// [failed] field number --fieldName position --type java.lang.Integer --notNull 
+// [failed] field number --fieldName index --type java.lang.Integer --notNull 
+field number --fieldName pos --type java.lang.Integer --notNull 
+// [failed] entity --class ~.domain.SongLine --testAutomatically 
+field set --fieldName chordPositions --type ~.domain.ChordPosition
+// [failed] entity --class ~.domain.Tablature --testAutomatically 
+field set --fieldName lines --type ~.domain.SongLine
+entity --class ~.domain.SongEntry --testAutomatically 
+field reference --fieldName tablature --type ~.domain.Tablature
+entity --class ~.domain.VideoEntry --testAutomatically 
+field reference --fieldName author --type ~.domain.UserAccount
+field date --fieldName addedAt --type java.util.Date --notNull
+field string --fieldName url --sizeMin 2 --notNull
+field number --fieldName votes --type java.lang.Integer --notNull 
+field number --fieldName downVotes --type java.lang.Integer --notNull 
+// [failed] entity --class ~.domain.SongEntry --testAutomatically 
+field set --fieldName videos --type ~.domain.VideoEntry
+// [failed] entity --class ~.domain.VideoEntry --testAutomatically 
+field string --fieldName thumbnailUrl --sizeMin 2 --notNull
+controller all --package ~.web
+logging setup --level DEBUG
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-12-18 01:08:41
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-12-20 23:36:12
+// [failed] entity --class ~.domain.SongEntry --testAutomatically 
+hint
+help
+json all
+// [failed] entity --class ~.domain.SongEntry --testAutomatically 
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-12-21 01:46:51

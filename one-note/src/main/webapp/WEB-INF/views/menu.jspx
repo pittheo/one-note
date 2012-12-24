@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_userprofile" z="2kJ9OpCfQCJw1Bn7dN6zVF1sN3I=">
+            <menu:item id="i_userprofile_new" messageCode="global_menu_new" url="/userprofiles?form" z="RYXZPbBQnd8xC3sX9BmwGEMjG7I="/>
+            <menu:item id="i_userprofile_list" messageCode="global_menu_list" url="/userprofiles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="9erJNttMn6QObSrmM4/XDGz4+1Y="/>
+        </menu:category>
+        <menu:category id="c_useraccount" z="Yb8cyPB5AwOfYXCcrEpGXNT9C+k=">
+            <menu:item id="i_useraccount_new" messageCode="global_menu_new" url="/useraccounts?form" z="dm6iErpLQmgISoPCTS3yLiH8XFA="/>
+            <menu:item id="i_useraccount_list" messageCode="global_menu_list" url="/useraccounts?page=1&amp;size=${empty param.size ? 10 : param.size}" z="nijRCp2PPYuD2D3D7hljcdDK4vs="/>
+            <menu:item id="fi_useraccount_emailequals" messageCode="global_menu_find" url="/useraccounts?find=ByEmailEquals&amp;form" z="cv3iMC2+TqGvP5LreCZeT9La2kI="/>
+            <menu:item id="fi_useraccount_emailequalsandpasswordequals" messageCode="global_menu_find" url="/useraccounts?find=ByEmailEqualsAndPasswordEquals&amp;form" z="maZ1rOKUZPNDuDV6VSEDlgN9kdg="/>
+            <menu:item id="fi_useraccount_usernameequals" messageCode="global_menu_find" url="/useraccounts?find=ByUsernameEquals&amp;form" z="JJnIFelS3xASGoOZ0jI9mZ5zYKw="/>
+            <menu:item id="fi_useraccount_usernameequalsandpasswordequals" messageCode="global_menu_find" url="/useraccounts?find=ByUsernameEqualsAndPasswordEquals&amp;form" z="YKdffay/hv+O0nZtW6xe32QB3Ao="/>
+            <menu:item id="fi_useraccount_usernamelike" messageCode="global_menu_find" url="/useraccounts?find=ByUsernameLike&amp;form" z="sRoQfBABIfZcXXgZsABEEKlSO3o="/>
+            <menu:item id="fi_useraccount_verifiednot" messageCode="global_menu_find" url="/useraccounts?find=ByVerifiedNot&amp;form" z="p83AYQ7Euhw6bVKsm1+qSpjd7Ek="/>
+        </menu:category>
+        <menu:category id="c_chordposition" z="KKwi5nH6P6MA/432NKVlylENF7w=">
+            <menu:item id="i_chordposition_new" messageCode="global_menu_new" url="/chordpositions?form" z="sSRh+/MULpaclPPYVAU67dmOB/Y="/>
+            <menu:item id="i_chordposition_list" messageCode="global_menu_list" url="/chordpositions?page=1&amp;size=${empty param.size ? 10 : param.size}" z="6VWHtNbWWbcfMd4x+LJc7OCMNCI="/>
+        </menu:category>
+        <menu:category id="c_songline" z="I/jdfVyKynjb6dNMiyKBl3Bvehw=">
+            <menu:item id="i_songline_new" messageCode="global_menu_new" url="/songlines?form" z="dYlI7BXrqzpIJkugWuAv+Hp8luM="/>
+            <menu:item id="i_songline_list" messageCode="global_menu_list" url="/songlines?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YXm2syobPfwth3Ox39igwl2vZZA="/>
+        </menu:category>
+        <menu:category id="c_tablature" z="5W9F7s39ILbd7BT8P5CMDnpOyyE=">
+            <menu:item id="i_tablature_new" messageCode="global_menu_new" url="/tablatures?form" z="zQGaVGglmplNyNf1RuqVX0tjRqs="/>
+            <menu:item id="i_tablature_list" messageCode="global_menu_list" url="/tablatures?page=1&amp;size=${empty param.size ? 10 : param.size}" z="mui6LZGwoGQirIv5JQ5fJedkl/w="/>
+        </menu:category>
+        <menu:category id="c_videoentry" z="yFgfEe/IZsmsOwEfvnIn/a3/ob0=">
+            <menu:item id="i_videoentry_new" messageCode="global_menu_new" url="/videoentrys?form" z="0oYJBvVPP+ao7g05NH5SUuuGS0Y="/>
+            <menu:item id="i_videoentry_list" messageCode="global_menu_list" url="/videoentrys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="/2YJ+6ALGxcQXOiCh+7ttEO4w1E="/>
+        </menu:category>
+        <menu:category id="c_songentry" z="oR4/Ul8P2jxs9apEFs3CHPhK+JY=">
+            <menu:item id="i_songentry_new" messageCode="global_menu_new" url="/songentrys?form" z="cdgbaDYaXbeWvI0scswepC6abY8="/>
+            <menu:item id="i_songentry_list" messageCode="global_menu_list" url="/songentrys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="n6rutXY3X4ShYEtoSd1uQRp0L+w="/>
+        </menu:category>
+        <menu:category id="c_comment" z="KpI9zqkdeE9bZ8zxvHTXU6Lm24s=">
+            <menu:item id="i_comment_new" messageCode="global_menu_new" url="/comments?form" z="q921JBcftknHR9qtTYaac8JDm7g="/>
+            <menu:item id="i_comment_list" messageCode="global_menu_list" url="/comments?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Z9n1g0FmjBLpyAPjZHhefDZLMtY="/>
+        </menu:category>
+    </menu:menu>
+</div>

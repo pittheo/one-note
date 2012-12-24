@@ -1,0 +1,62 @@
+<aspectj>
+<aspects>
+<aspect name="org.one.note.noted.domain.Tablature_Roo_ToString"/>
+<aspect name="org.one.note.noted.domain.UserProfile_Roo_Configurable"/>
+<aspect name="org.one.note.noted.domain.ChordPosition_Roo_JavaBean"/>
+<aspect name="org.one.note.noted.web.VideoEntryController_Roo_Controller"/>
+<aspect name="org.one.note.noted.domain.UserAccount_Roo_JavaBean"/>
+<aspect name="org.one.note.noted.web.CommentController_Roo_Controller_Json"/>
+<aspect name="org.one.note.noted.domain.ChordPosition_Roo_ToString"/>
+<aspect name="org.one.note.noted.domain.ChordPosition_Roo_Configurable"/>
+<aspect name="org.one.note.noted.web.VideoEntryController_Roo_Controller_Json"/>
+<aspect name="org.one.note.noted.domain.ChordPosition_Roo_Entity"/>
+<aspect name="org.one.note.noted.domain.Tablature_Roo_Entity"/>
+<aspect name="org.one.note.noted.web.ChordPositionController_Roo_Controller"/>
+<aspect name="org.one.note.noted.domain.Comment_Roo_ToString"/>
+<aspect name="org.one.note.noted.domain.SongLine_Roo_ToString"/>
+<aspect name="org.one.note.noted.web.SongLineController_Roo_Controller_Json"/>
+<aspect name="org.one.note.noted.web.TablatureController_Roo_Controller"/>
+<aspect name="org.one.note.noted.domain.SongLine_Roo_Entity"/>
+<aspect name="org.one.note.noted.domain.VideoEntry_Roo_Json"/>
+<aspect name="org.one.note.noted.domain.Comment_Roo_JavaBean"/>
+<aspect name="org.one.note.noted.domain.UserAccount_Roo_Finder"/>
+<aspect name="org.one.note.noted.web.UserProfileController_Roo_Controller_Json"/>
+<aspect name="org.one.note.noted.domain.VideoEntry_Roo_JavaBean"/>
+<aspect name="org.one.note.noted.domain.ChordPosition_Roo_Json"/>
+<aspect name="org.one.note.noted.domain.SongEntry_Roo_Json"/>
+<aspect name="org.one.note.noted.web.ChordPositionController_Roo_Controller_Json"/>
+<aspect name="org.one.note.noted.domain.UserAccount_Roo_Entity"/>
+<aspect name="org.one.note.noted.domain.UserProfile_Roo_Entity"/>
+<aspect name="org.one.note.noted.domain.SongEntry_Roo_Entity"/>
+<aspect name="org.one.note.noted.web.TablatureController_Roo_Controller_Json"/>
+<aspect name="org.one.note.noted.web.CommentController_Roo_Controller"/>
+<aspect name="org.one.note.noted.domain.VideoEntry_Roo_Configurable"/>
+<aspect name="org.one.note.noted.domain.UserAccount_Roo_Configurable"/>
+<aspect name="org.one.note.noted.domain.UserAccount_Roo_Json"/>
+<aspect name="org.one.note.noted.domain.Comment_Roo_Entity"/>
+<aspect name="org.one.note.noted.domain.VideoEntry_Roo_Entity"/>
+<aspect name="org.one.note.noted.web.UserAccountController_Roo_Controller"/>
+<aspect name="org.one.note.noted.web.SongLineController_Roo_Controller"/>
+<aspect name="org.one.note.noted.web.UserAccountController_Roo_Controller_Finder"/>
+<aspect name="org.one.note.noted.domain.SongLine_Roo_JavaBean"/>
+<aspect name="org.one.note.noted.domain.UserProfile_Roo_ToString"/>
+<aspect name="org.one.note.noted.domain.VideoEntry_Roo_ToString"/>
+<aspect name="org.one.note.noted.domain.UserProfile_Roo_Json"/>
+<aspect name="org.one.note.noted.domain.SongEntry_Roo_Configurable"/>
+<aspect name="org.one.note.noted.domain.Comment_Roo_Configurable"/>
+<aspect name="org.one.note.noted.web.UserProfileController_Roo_Controller"/>
+<aspect name="org.one.note.noted.domain.UserAccount_Roo_ToString"/>
+<aspect name="org.one.note.noted.domain.Comment_Roo_Json"/>
+<aspect name="org.one.note.noted.domain.SongLine_Roo_Configurable"/>
+<aspect name="org.one.note.noted.domain.Tablature_Roo_Configurable"/>
+<aspect name="org.one.note.noted.domain.Tablature_Roo_Json"/>
+<aspect name="org.one.note.noted.domain.SongLine_Roo_Json"/>
+<aspect name="org.one.note.noted.domain.UserProfile_Roo_JavaBean"/>
+<aspect name="org.one.note.noted.domain.SongEntry_Roo_ToString"/>
+<aspect name="org.one.note.noted.domain.SongEntry_Roo_JavaBean"/>
+<aspect name="org.one.note.noted.domain.Tablature_Roo_JavaBean"/>
+<aspect name="org.one.note.noted.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="org.one.note.noted.web.UserAccountController_Roo_Controller_Json"/>
+</aspects>
+</aspectj>
+

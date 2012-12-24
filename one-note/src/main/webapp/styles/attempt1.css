@@ -1,0 +1,75 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'Fredericka the Great';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fredericka the Great'), local('FrederickatheGreat'), url(http://themes.googleusercontent.com/static/fonts/frederickathegreat/v2/7Es8Lxoku-e5eOZWpxw18vc3vBAn7YvtW9hNjxWZBR0.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'museo-slab';
+    src: url('http://www.hiptype.com/static/fonts/museo_slab_500-webfont.eot');
+    src: url('http://www.hiptype.com/static/fonts/museo_slab_500-webfont.eot?#iefix') format('embedded-opentype'), url('http://www.hiptype.com/static/fonts/museo_slab_500-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo-700';
+  src: url('http://www.givebeyond.me/webfonts/11107A_0.eot');
+  src: url('http://www.givebeyond.me/webfonts/11107A_0.eot?#iefix') format('embedded-opentype'),url('http://www.givebeyond.me/webfonts/11107A_0.woff') format('woff'),url('http://www.givebeyond.me/webfonts/11107A_0.ttf') format('truetype'),url('http://www.givebeyond.me/webfonts/11107A_0.svg#wf') format('svg');}
+
+body {
+     background: #1B1714 url(bg-6.jpg) repeat center top;
+     font-family: 'museo-slab', 'Museo-700';
+     color: white;
+}
+
+.mission-container {
+  margin-bottom: 50px;
+}
+
+.mission {
+  font-size: 4em;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.mission .logo-standout {
+  color: #BB3B19;
+}
+
+.tagline {
+  font-size: 2em;
+  color: white;
+}
+
+.tagline .emphasis {
+  color: white;
+}
+
+#pad{
+	margin-left: auto;
+  margin-right: auto;
+	z-index:1;
+}
+#screen{
+	position: relative;
+	left:60px;
+	margin-top:-505px;
+	width:480px;
+	height:360px;
+	z-index: 3;
+}
+#screen_bot{
+        position: relative;
+        left:60px;
+        margin-top:-360px;
+        width:480px;
+        height:360px;
+        z-index: 2;
+}
+

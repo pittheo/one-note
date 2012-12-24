@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_one_note_noted_domain_Tablature" items="${tablatures}" z="zSDN3mWszOERyg2hOZ+IKBOqR+8=">
+        <table:table data="${tablatures}" id="l_org_one_note_noted_domain_Tablature" path="/tablatures" z="qAb/s6MTkycVQS1VMkoHL/Os/wA=">
+            <table:column date="true" dateTimePattern="${tablature_createdat_date_format}" id="c_org_one_note_noted_domain_Tablature_createdAt" property="createdAt" z="GD7YHB4foCmbKuo5SKTHq43R48A="/>
+            <table:column date="true" dateTimePattern="${tablature_lastmodifiedat_date_format}" id="c_org_one_note_noted_domain_Tablature_lastModifiedAt" property="lastModifiedAt" z="V41i0sYaV8x1djn80ZfQiL+NkbI="/>
+            <table:column id="c_org_one_note_noted_domain_Tablature_author" property="author" z="0VOKXHwOvCIaxl5Zof+rS+9duM4="/>
+            <table:column id="c_org_one_note_noted_domain_Tablature_songTitle" property="songTitle" z="7nO66WyrWP0yFaCviJ+yHs/CeZ4="/>
+            <table:column id="c_org_one_note_noted_domain_Tablature_artistName" property="artistName" z="eWnS0qHATt1sdhzowsELXQDdgSw="/>
+            <table:column id="c_org_one_note_noted_domain_Tablature_thumbnailPath" property="thumbnailPath" z="ID+jZftK1uvaqstF8YX6/Z0TMHw="/>
+        </table:table>
+    </page:list>
+</div>

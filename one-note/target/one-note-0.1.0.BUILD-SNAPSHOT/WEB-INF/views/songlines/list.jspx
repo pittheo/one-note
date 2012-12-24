@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_one_note_noted_domain_SongLine" items="${songlines}" z="EGZZzQFlYQH6CmTZc367SKw7stY=">
+        <table:table data="${songlines}" id="l_org_one_note_noted_domain_SongLine" path="/songlines" z="X3d2j+Q0DZt7YMdT8uMz3nFECyw=">
+            <table:column id="c_org_one_note_noted_domain_SongLine_lyrics" property="lyrics" z="JK/MJlSe5h3a7MZN9VjfmhxfHHU="/>
+            <table:column id="c_org_one_note_noted_domain_SongLine_ordering" property="ordering" z="E6QKhvZbScT53WF55PwD8kBgELw="/>
+            <table:column id="c_org_one_note_noted_domain_SongLine_chordPositions" property="chordPositions" z="bvRKUHAZweUCkbZi5EWcbhakB+4="/>
+        </table:table>
+    </page:list>
+</div>

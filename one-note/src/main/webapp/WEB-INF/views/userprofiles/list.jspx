@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_one_note_noted_domain_UserProfile" items="${userprofiles}" z="RzAEGv2hyD1Smejy4g/uiSns6mQ=">
+        <table:table data="${userprofiles}" id="l_org_one_note_noted_domain_UserProfile" path="/userprofiles" z="pU67WgYtCHirNSzIYRP09A0TE18=">
+            <table:column id="c_org_one_note_noted_domain_UserProfile_firstName" property="firstName" z="GMZ9+PLjk9OvSMSZYQeFF29ZWtg="/>
+            <table:column id="c_org_one_note_noted_domain_UserProfile_surname" property="surname" z="4n/Ls6nm8I7WEO5ACTmeJkgjJcs="/>
+            <table:column id="c_org_one_note_noted_domain_UserProfile_locationName" property="locationName" z="M0fWIN2FEkU66PBI6bIgyw7aV3U="/>
+            <table:column id="c_org_one_note_noted_domain_UserProfile_coordX" property="coordX" z="fephiRyv4n6BLe+XQoexkfxLeV8="/>
+            <table:column id="c_org_one_note_noted_domain_UserProfile_coordY" property="coordY" z="Xw7c7SHdNtq3eTRCYmsZAcB+kUk="/>
+            <table:column id="c_org_one_note_noted_domain_UserProfile_website" property="website" z="SLfcEak+Qjri9W86x8T84b1Qupk="/>
+        </table:table>
+    </page:list>
+</div>

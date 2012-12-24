@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_one_note_noted_domain_VideoEntry" object="${videoentry}" path="/videoentrys" z="jHOzCQHgeH0RyLJNp4a9e99Penw=">
+        <field:display field="author" id="s_org_one_note_noted_domain_VideoEntry_author" object="${videoentry}" z="wv0/T7Dlqml9PyZ/8RsHRLRmHFY="/>
+        <field:display date="true" dateTimePattern="${videoEntry_addedat_date_format}" field="addedAt" id="s_org_one_note_noted_domain_VideoEntry_addedAt" object="${videoentry}" z="WhN2I3QORExgtK7iS526N8HplSI="/>
+        <field:display field="url" id="s_org_one_note_noted_domain_VideoEntry_url" object="${videoentry}" z="gqYwP2aXqFlCv8D/75Ba/QGd6Ds="/>
+        <field:display field="upVotes" id="s_org_one_note_noted_domain_VideoEntry_upVotes" object="${videoentry}" z="imH4/lFuRPiTEmiWPfWefmi7460="/>
+        <field:display field="downVotes" id="s_org_one_note_noted_domain_VideoEntry_downVotes" object="${videoentry}" z="kgrCigcO85ULtyrvgCX+2chViSU="/>
+        <field:display field="thumbnailUrl" id="s_org_one_note_noted_domain_VideoEntry_thumbnailUrl" object="${videoentry}" z="00tID4zYt81MgkuY5loAPWJMfNo="/>
+    </page:show>
+</div>

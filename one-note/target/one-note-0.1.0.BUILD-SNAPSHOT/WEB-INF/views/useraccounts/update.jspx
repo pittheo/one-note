@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_org_one_note_noted_domain_UserAccount" modelAttribute="userAccount" path="/useraccounts" versionField="Version" z="Ylz3JWrgwku8SnyBQcT2EqnUUYk=">
+        <field:input field="username" id="c_org_one_note_noted_domain_UserAccount_username" min="2" required="true" z="iYH940Hh7T+xRRUffHiWDW2Aiqs="/>
+        <field:input field="password" id="c_org_one_note_noted_domain_UserAccount_password" min="2" required="true" z="wCa4CLtUqMrqF5lOZ/Uj6S9TXD0="/>
+        <field:input field="hash" id="c_org_one_note_noted_domain_UserAccount_hash" min="2" required="true" z="HrDXHYoQZpWj+J4cAjjjDwKHcwI="/>
+        <field:checkbox field="verified" id="c_org_one_note_noted_domain_UserAccount_verified" z="qJ2WDUibaLFs6Dosp05EhaB7Mz0="/>
+        <field:input field="email" id="c_org_one_note_noted_domain_UserAccount_email" min="2" required="true" validationMessageCode="field_invalid_email" z="V3OufgwnomvB0FgZSqbP2bW44A0="/>
+        <field:select field="profile" id="c_org_one_note_noted_domain_UserAccount_profile" itemValue="id" items="${userprofiles}" path="/userprofiles" z="Qjl9KyN/slsbIbFuQaO6XxWr/38="/>
+        <field:datetime dateTimePattern="${userAccount_createdat_date_format}" field="createdAt" id="c_org_one_note_noted_domain_UserAccount_createdAt" required="true" z="jhzEwyvTJB6PNJKqc1XE2Ebztv0="/>
+        <field:datetime dateTimePattern="${userAccount_verifiedat_date_format}" field="verifiedAt" id="c_org_one_note_noted_domain_UserAccount_verifiedAt" required="true" z="mruppSBLLidu9sJC33jxnTf71Ng="/>
+    </form:update>
+</div>

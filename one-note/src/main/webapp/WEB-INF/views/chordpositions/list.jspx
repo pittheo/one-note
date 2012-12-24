@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_one_note_noted_domain_ChordPosition" items="${chordpositions}" z="Z+TQqMM0EXjVPsFK1AzxbQaJUFc=">
+        <table:table data="${chordpositions}" id="l_org_one_note_noted_domain_ChordPosition" path="/chordpositions" z="R8eSHXQ66qSbabQWGgP/MGA7Tzo=">
+            <table:column id="c_org_one_note_noted_domain_ChordPosition_chord" property="chord" z="YfTQEonK/9UcZJHMt1Ofs34gM1k="/>
+            <table:column id="c_org_one_note_noted_domain_ChordPosition_pos" property="pos" z="kKEPAkoGBO5moL7a6SLfaZcRB3k="/>
+        </table:table>
+    </page:list>
+</div>

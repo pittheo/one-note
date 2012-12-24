@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_org_one_note_noted_domain_UserProfile" object="${userprofile}" path="/userprofiles" z="YBE2EfyBWvdG77AiqerZvI7lCj4=">
+        <field:display field="firstName" id="s_org_one_note_noted_domain_UserProfile_firstName" object="${userprofile}" z="zguhUnXjC9ZkVUSymoL3zvhguRc="/>
+        <field:display field="surname" id="s_org_one_note_noted_domain_UserProfile_surname" object="${userprofile}" z="7Qpxxs0cyY45aIE2oRcitUjCSLs="/>
+        <field:display field="locationName" id="s_org_one_note_noted_domain_UserProfile_locationName" object="${userprofile}" z="XlprOZtUOq19boV7/KKY3eFIUgE="/>
+        <field:display field="coordX" id="s_org_one_note_noted_domain_UserProfile_coordX" object="${userprofile}" z="yupFmgamQnM5lKK/7jPTAzNs1p0="/>
+        <field:display field="coordY" id="s_org_one_note_noted_domain_UserProfile_coordY" object="${userprofile}" z="PrymcLJTVXf3zkrH4t9rYLlyJME="/>
+        <field:display field="website" id="s_org_one_note_noted_domain_UserProfile_website" object="${userprofile}" z="od4B92dkVq4Qfz5kHdfsHA7CRU8="/>
+        <field:display field="thumbnailPath" id="s_org_one_note_noted_domain_UserProfile_thumbnailPath" object="${userprofile}" z="T1coE4vnVtAu6dUIRJ4VI8VH2FU="/>
+    </page:show>
+</div>

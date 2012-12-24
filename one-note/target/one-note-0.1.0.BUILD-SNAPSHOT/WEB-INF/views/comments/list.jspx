@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_org_one_note_noted_domain_Comment" items="${comments}" z="yH4cpOdP5zSEMDr+X8Fv2wCD69w=">
+        <table:table data="${comments}" id="l_org_one_note_noted_domain_Comment" path="/comments" z="wcUuhfjKSmSFqHXXr5uRqluGPM0=">
+            <table:column id="c_org_one_note_noted_domain_Comment_content" property="content" z="D48SW5SYsB46Y8Si4eteHViiGf4="/>
+            <table:column id="c_org_one_note_noted_domain_Comment_author" property="author" z="yfP0GbNPOj9QJZoW62Z1ggGpj6Q="/>
+            <table:column date="true" dateTimePattern="${comment_createdat_date_format}" id="c_org_one_note_noted_domain_Comment_createdAt" property="createdAt" z="wXx2iBqAeudcYQruNptvPsVHadc="/>
+            <table:column date="true" dateTimePattern="${comment_lastmodifiedat_date_format}" id="c_org_one_note_noted_domain_Comment_lastModifiedAt" property="lastModifiedAt" z="y4BA5VcDk8NNnt5TudNeDAdArpI="/>
+            <table:column id="c_org_one_note_noted_domain_Comment_title" property="title" z="Wmk2TSxgfoKaAla8iozfNmBjmW4="/>
+        </table:table>
+    </page:list>
+</div>
